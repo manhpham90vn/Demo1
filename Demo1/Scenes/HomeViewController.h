@@ -7,11 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "DetailViewController.h"
 
-NS_ASSUME_NONNULL_BEGIN
-
-@interface HomeViewController : UIViewController
+@interface HomeViewController : UIViewController <DetailViewControllerDelegate>
 
 @end
-
-NS_ASSUME_NONNULL_END

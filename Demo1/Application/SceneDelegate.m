@@ -20,11 +20,12 @@
         
     UIWindowScene *windowScene = (UIWindowScene *)scene;
     CGRect appFrame = windowScene.coordinateSpace.bounds;
-    UIViewController *viewController = [[HomeViewController alloc] initWithNibName:@"HomeViewController" bundle:nil];
+    HomeViewController *homeViewController = [[HomeViewController alloc] initWithNibName:@"HomeViewController" bundle:nil];
+    UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:homeViewController];
     
     self.window = [[UIWindow alloc] initWithFrame:appFrame];
     self.window.windowScene = windowScene;
-    self.window.rootViewController = viewController;
+    self.window.rootViewController = nav;
     [self.window makeKeyAndVisible];
     
 }

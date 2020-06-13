@@ -14,6 +14,8 @@
 		BB385A402494FFB900F22754 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BB385A3F2494FFB900F22754 /* main.m */; };
 		BB385A4B2495084900F22754 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BB385A492495084900F22754 /* HomeViewController.m */; };
 		BB385A4C2495084900F22754 /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BB385A4A2495084900F22754 /* HomeViewController.xib */; };
+		BB647C2C249519B900D31FA6 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BB647C2A249519B900D31FA6 /* DetailViewController.m */; };
+		BB647C2D249519B900D31FA6 /* DetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BB647C2B249519B900D31FA6 /* DetailViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +31,9 @@
 		BB385A482495084900F22754 /* HomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
 		BB385A492495084900F22754 /* HomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
 		BB385A4A2495084900F22754 /* HomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
+		BB647C29249519B900D31FA6 /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		BB647C2A249519B900D31FA6 /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		BB647C2B249519B900D31FA6 /* DetailViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DetailViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +91,9 @@
 				BB385A482495084900F22754 /* HomeViewController.h */,
 				BB385A492495084900F22754 /* HomeViewController.m */,
 				BB385A4A2495084900F22754 /* HomeViewController.xib */,
+				BB647C29249519B900D31FA6 /* DetailViewController.h */,
+				BB647C2A249519B900D31FA6 /* DetailViewController.m */,
+				BB647C2B249519B900D31FA6 /* DetailViewController.xib */,
 			);
 			path = Scenes;
 			sourceTree = "<group>";
@@ -160,6 +168,7 @@
 				BB385A3D2494FFB900F22754 /* LaunchScreen.storyboard in Resources */,
 				BB385A3A2494FFB900F22754 /* Assets.xcassets in Resources */,
 				BB385A4C2495084900F22754 /* HomeViewController.xib in Resources */,
+				BB647C2D249519B900D31FA6 /* DetailViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -170,6 +179,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BB647C2C249519B900D31FA6 /* DetailViewController.m in Sources */,
 				BB385A2F2494FFB800F22754 /* AppDelegate.m in Sources */,
 				BB385A402494FFB900F22754 /* main.m in Sources */,
 				BB385A322494FFB800F22754 /* SceneDelegate.m in Sources */,

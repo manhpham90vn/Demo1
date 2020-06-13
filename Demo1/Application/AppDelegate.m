@@ -22,8 +22,10 @@
         
     } else {
         CGRect appFrame = UIScreen.mainScreen.bounds;
+        HomeViewController *homeViewController = [[HomeViewController alloc] initWithNibName:@"HomeViewController" bundle:nil];
+        UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:homeViewController];
         self.window = [[UIWindow alloc] initWithFrame:appFrame];
-        self.window.rootViewController = [[HomeViewController alloc] initWithNibName:@"HomeViewController" bundle:nil];
+        self.window.rootViewController = nav;
         [self.window makeKeyAndVisible];
     }
     
