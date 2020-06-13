@@ -1,5 +1,5 @@
 //
-//  AppDelegate.h
+//  HomeViewController.h
 //  Demo1
 //
 //  Created by Manh Pham on 6/13/20.
@@ -8,8 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
+NS_ASSUME_NONNULL_BEGIN
 
+@interface HomeViewController : UIViewController
 
 @end
 
+NS_ASSUME_NONNULL_END
