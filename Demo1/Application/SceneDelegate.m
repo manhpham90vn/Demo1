@@ -7,7 +7,7 @@
 //
 
 #import "SceneDelegate.h"
-#import "HomeViewController.h"
+#import "MainTabbarViewController.h"
 
 @interface SceneDelegate ()
 
@@ -20,12 +20,11 @@
         
     UIWindowScene *windowScene = (UIWindowScene *)scene;
     CGRect appFrame = windowScene.coordinateSpace.bounds;
-    HomeViewController *homeViewController = [[HomeViewController alloc] initWithNibName:@"HomeViewController" bundle:nil];
-    UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:homeViewController];
+    MainTabbarViewController *mainTabbarViewController = [[MainTabbarViewController alloc] initWithNibName:@"MainTabbarViewController" bundle:nil];
     
     self.window = [[UIWindow alloc] initWithFrame:appFrame];
     self.window.windowScene = windowScene;
-    self.window.rootViewController = nav;
+    self.window.rootViewController = mainTabbarViewController;
     [self.window makeKeyAndVisible];
     
 }

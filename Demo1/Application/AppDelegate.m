@@ -7,7 +7,7 @@
 //
 
 #import "AppDelegate.h"
-#import "HomeViewController.h"
+#import "MainTabbarViewController.h"
 
 @interface AppDelegate ()
 
@@ -22,10 +22,9 @@
         
     } else {
         CGRect appFrame = UIScreen.mainScreen.bounds;
-        HomeViewController *homeViewController = [[HomeViewController alloc] initWithNibName:@"HomeViewController" bundle:nil];
-        UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:homeViewController];
         self.window = [[UIWindow alloc] initWithFrame:appFrame];
-        self.window.rootViewController = nav;
+        MainTabbarViewController *mainTabbarViewController = [[MainTabbarViewController alloc] initWithNibName:@"MainTabbarViewController" bundle:nil];
+        self.window.rootViewController = mainTabbarViewController;
         [self.window makeKeyAndVisible];
     }
     

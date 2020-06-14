@@ -12,10 +12,16 @@
 		BB385A3A2494FFB900F22754 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB385A392494FFB900F22754 /* Assets.xcassets */; };
 		BB385A3D2494FFB900F22754 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB385A3B2494FFB900F22754 /* LaunchScreen.storyboard */; };
 		BB385A402494FFB900F22754 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BB385A3F2494FFB900F22754 /* main.m */; };
-		BB385A4B2495084900F22754 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BB385A492495084900F22754 /* HomeViewController.m */; };
-		BB385A4C2495084900F22754 /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BB385A4A2495084900F22754 /* HomeViewController.xib */; };
-		BB647C2C249519B900D31FA6 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BB647C2A249519B900D31FA6 /* DetailViewController.m */; };
-		BB647C2D249519B900D31FA6 /* DetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BB647C2B249519B900D31FA6 /* DetailViewController.xib */; };
+		BB385A4B2495084900F22754 /* Screen1ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BB385A492495084900F22754 /* Screen1ViewController.m */; };
+		BB385A4C2495084900F22754 /* Screen1ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BB385A4A2495084900F22754 /* Screen1ViewController.xib */; };
+		BB6331992495BEB500C84856 /* MainTabbarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BB6331972495BEB500C84856 /* MainTabbarViewController.m */; };
+		BB63319A2495BEB500C84856 /* MainTabbarViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BB6331982495BEB500C84856 /* MainTabbarViewController.xib */; };
+		BB63319E2495C1B800C84856 /* CartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BB63319C2495C1B800C84856 /* CartViewController.m */; };
+		BB63319F2495C1B800C84856 /* CartViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BB63319D2495C1B800C84856 /* CartViewController.xib */; };
+		BB6331A62495C5CA00C84856 /* TopViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BB6331A42495C5CA00C84856 /* TopViewController.m */; };
+		BB6331A72495C5CA00C84856 /* TopViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BB6331A52495C5CA00C84856 /* TopViewController.xib */; };
+		BB647C2C249519B900D31FA6 /* Screen2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BB647C2A249519B900D31FA6 /* Screen2ViewController.m */; };
+		BB647C2D249519B900D31FA6 /* Screen2ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BB647C2B249519B900D31FA6 /* Screen2ViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,12 +34,21 @@
 		BB385A3C2494FFB900F22754 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BB385A3E2494FFB900F22754 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BB385A3F2494FFB900F22754 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		BB385A482495084900F22754 /* HomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
-		BB385A492495084900F22754 /* HomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
-		BB385A4A2495084900F22754 /* HomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
-		BB647C29249519B900D31FA6 /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
-		BB647C2A249519B900D31FA6 /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
-		BB647C2B249519B900D31FA6 /* DetailViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DetailViewController.xib; sourceTree = "<group>"; };
+		BB385A482495084900F22754 /* Screen1ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Screen1ViewController.h; sourceTree = "<group>"; };
+		BB385A492495084900F22754 /* Screen1ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Screen1ViewController.m; sourceTree = "<group>"; };
+		BB385A4A2495084900F22754 /* Screen1ViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Screen1ViewController.xib; sourceTree = "<group>"; };
+		BB6331962495BEB500C84856 /* MainTabbarViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainTabbarViewController.h; sourceTree = "<group>"; };
+		BB6331972495BEB500C84856 /* MainTabbarViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainTabbarViewController.m; sourceTree = "<group>"; };
+		BB6331982495BEB500C84856 /* MainTabbarViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainTabbarViewController.xib; sourceTree = "<group>"; };
+		BB63319B2495C1B800C84856 /* CartViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CartViewController.h; sourceTree = "<group>"; };
+		BB63319C2495C1B800C84856 /* CartViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CartViewController.m; sourceTree = "<group>"; };
+		BB63319D2495C1B800C84856 /* CartViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CartViewController.xib; sourceTree = "<group>"; };
+		BB6331A32495C5CA00C84856 /* TopViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TopViewController.h; sourceTree = "<group>"; };
+		BB6331A42495C5CA00C84856 /* TopViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TopViewController.m; sourceTree = "<group>"; };
+		BB6331A52495C5CA00C84856 /* TopViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TopViewController.xib; sourceTree = "<group>"; };
+		BB647C29249519B900D31FA6 /* Screen2ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Screen2ViewController.h; sourceTree = "<group>"; };
+		BB647C2A249519B900D31FA6 /* Screen2ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Screen2ViewController.m; sourceTree = "<group>"; };
+		BB647C2B249519B900D31FA6 /* Screen2ViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Screen2ViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,12 +103,11 @@
 		BB385A472495081A00F22754 /* Scenes */ = {
 			isa = PBXGroup;
 			children = (
-				BB385A482495084900F22754 /* HomeViewController.h */,
-				BB385A492495084900F22754 /* HomeViewController.m */,
-				BB385A4A2495084900F22754 /* HomeViewController.xib */,
-				BB647C29249519B900D31FA6 /* DetailViewController.h */,
-				BB647C2A249519B900D31FA6 /* DetailViewController.m */,
-				BB647C2B249519B900D31FA6 /* DetailViewController.xib */,
+				BB6331A02495C49200C84856 /* Home */,
+				BB6331A12495C4A200C84856 /* Cart */,
+				BB6331962495BEB500C84856 /* MainTabbarViewController.h */,
+				BB6331972495BEB500C84856 /* MainTabbarViewController.m */,
+				BB6331982495BEB500C84856 /* MainTabbarViewController.xib */,
 			);
 			path = Scenes;
 			sourceTree = "<group>";
@@ -106,6 +120,40 @@
 				BB385A3E2494FFB900F22754 /* Info.plist */,
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		BB6331A02495C49200C84856 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				BB6331A22495C5B500C84856 /* PassData */,
+				BB6331A32495C5CA00C84856 /* TopViewController.h */,
+				BB6331A42495C5CA00C84856 /* TopViewController.m */,
+				BB6331A52495C5CA00C84856 /* TopViewController.xib */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		BB6331A12495C4A200C84856 /* Cart */ = {
+			isa = PBXGroup;
+			children = (
+				BB63319B2495C1B800C84856 /* CartViewController.h */,
+				BB63319C2495C1B800C84856 /* CartViewController.m */,
+				BB63319D2495C1B800C84856 /* CartViewController.xib */,
+			);
+			path = Cart;
+			sourceTree = "<group>";
+		};
+		BB6331A22495C5B500C84856 /* PassData */ = {
+			isa = PBXGroup;
+			children = (
+				BB385A482495084900F22754 /* Screen1ViewController.h */,
+				BB385A492495084900F22754 /* Screen1ViewController.m */,
+				BB385A4A2495084900F22754 /* Screen1ViewController.xib */,
+				BB647C29249519B900D31FA6 /* Screen2ViewController.h */,
+				BB647C2A249519B900D31FA6 /* Screen2ViewController.m */,
+				BB647C2B249519B900D31FA6 /* Screen2ViewController.xib */,
+			);
+			path = PassData;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -166,9 +214,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				BB385A3D2494FFB900F22754 /* LaunchScreen.storyboard in Resources */,
+				BB63319A2495BEB500C84856 /* MainTabbarViewController.xib in Resources */,
+				BB6331A72495C5CA00C84856 /* TopViewController.xib in Resources */,
 				BB385A3A2494FFB900F22754 /* Assets.xcassets in Resources */,
-				BB385A4C2495084900F22754 /* HomeViewController.xib in Resources */,
-				BB647C2D249519B900D31FA6 /* DetailViewController.xib in Resources */,
+				BB385A4C2495084900F22754 /* Screen1ViewController.xib in Resources */,
+				BB63319F2495C1B800C84856 /* CartViewController.xib in Resources */,
+				BB647C2D249519B900D31FA6 /* Screen2ViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -179,11 +230,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BB647C2C249519B900D31FA6 /* DetailViewController.m in Sources */,
+				BB6331A62495C5CA00C84856 /* TopViewController.m in Sources */,
+				BB647C2C249519B900D31FA6 /* Screen2ViewController.m in Sources */,
 				BB385A2F2494FFB800F22754 /* AppDelegate.m in Sources */,
 				BB385A402494FFB900F22754 /* main.m in Sources */,
+				BB6331992495BEB500C84856 /* MainTabbarViewController.m in Sources */,
 				BB385A322494FFB800F22754 /* SceneDelegate.m in Sources */,
-				BB385A4B2495084900F22754 /* HomeViewController.m in Sources */,
+				BB63319E2495C1B800C84856 /* CartViewController.m in Sources */,
+				BB385A4B2495084900F22754 /* Screen1ViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

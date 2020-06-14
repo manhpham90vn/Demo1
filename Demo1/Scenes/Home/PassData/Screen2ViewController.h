@@ -1,5 +1,5 @@
 //
-//  DetailViewController.h
+//  Screen2ViewController.h
 //  Demo1
 //
 //  Created by Manh Pham on 6/13/20.
@@ -8,16 +8,16 @@
 
 #import <UIKit/UIKit.h>
 
-@protocol DetailViewControllerDelegate
+@protocol Screen2ViewControllerDelegate
 
 -(void) didTappedBackButton:(NSString*_Nullable) value;
 
 @end
 
 
-@interface DetailViewController : UIViewController
+@interface Screen2ViewController : UIViewController
 
 @property (strong, nonatomic, nullable) NSString *value;
-@property (weak, nonatomic, nullable) id<DetailViewControllerDelegate> delegate;
+@property (weak, nonatomic, nullable) id<Screen2ViewControllerDelegate> delegate;
 
 @end
